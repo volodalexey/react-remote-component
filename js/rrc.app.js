@@ -197,7 +197,7 @@ webpackJsonp([0],{
 	      if (component = this.state.components[requiredComponent]) {
 	        // found in cache
 	      } else if (requiredComponent) {
-	        _ajax2.default.load('/remote/' + requiredComponent).then(function (str_component) {
+	        _ajax2.default.load('remote/' + requiredComponent).then(function (str_component) {
 	          var component = void 0;
 	          try {
 	            var module = {},
